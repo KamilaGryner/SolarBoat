@@ -1,0 +1,55 @@
+@import '../../vars.sass'
+    
+.container
+    font-family: $font-main
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top: 89px
+    margin-bottom: 125px
+
+    .content
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        width: 90vw
+
+        .shema
+            min-width: 50%
+            text-align: center
+            flex-grow: 1
+
+        .description
+            min-width: 50%
+            flex-grow: 1
+
+            ul
+                list-style-type: none
+
+                li
+                    font-size: 20px
+                    color: $font-color-dark2
+                    line-height: 36px
+                        
+                li:before
+                    content: "- "
+
+                ul
+                    margin-left: 12px
+
+    .h2
+        color: $font-color-dark
+        font-size: 50px
+        margin-bottom: 55px
+
+    h3
+        color: $font-color-dark2
+        font-size: 35px
+        margin-bottom: 55px
+
+    h4
+        color: $font-color-dark2
+        font-size: 20px
+        margin-top: 40px
+
+    

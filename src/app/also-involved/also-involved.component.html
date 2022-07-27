@@ -1,0 +1,19 @@
+<section class="container">
+    <h2 class="h2">Also involved</h2>
+
+    <section class="content">
+        <div class="person" *ngFor="let person of people">
+            <div class="name">{{ person.name }}</div>
+            <div class="position">{{ person.position }}</div>
+            <div class="social-media">
+                <a href="{{ person.facebook }}">
+                    <i class="fa-brands fa-facebook-square"></i>
+                </a>
+                <a href="{{ person.linkedin }}">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</section>
